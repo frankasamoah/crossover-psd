@@ -34,6 +34,14 @@ font-size: 3rem;
 
 }
 
+.cardposts {
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+
+}
+
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -48,4 +56,11 @@ font-size: 3rem;
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+.card img {
+height:200px;
+
+
+
 }
