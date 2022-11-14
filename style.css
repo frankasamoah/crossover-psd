@@ -4,37 +4,183 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+  padding-bottom: 20px;
+}
+
 .title-here {
   display: block;
   text-align: center;
   font-family:'Noto Serif Georgian', serif;
   background-color: #ffc400;
-  height: 400px;
+  height: 550px;
 }
 .description{
-   display: flex;
+  padding-bottom: 50px;
+  display: flex;
   justify-content: center;
   flex-direction: row;
+  color: white;
+  font-size: 25px;
 }
-
+ 
+ 
 .container {
   justify-content: center;
   display: flex;
   flex-direction: row;
-
+  justify-content: space-around;
 }
 
 .doggy {
   display: flex;
   flex-direction: column;
-  background: no-repeat;
-  justify-content: space-between;
+ 
   width: 25%;
-  height: 400px
+  height: 300px
 }
 
-.pic-description {
-  display: flex;
-  justify-content:space-around;
-  flex-direction: column;
+
+
+:root {
+  --color-primary-yellow: #ffc400;
+  --color-primary-yellow: #2BC9EC;
+
 }
+
+#header {
+  
+  background: rgb(222, 182, 50);
+}
+
+
+.navbar {
+  width: 70rem;
+  min-width: 90%;
+  /* max-width: 70rem; */
+  padding: 50px;
+  /* width: 100%; */
+  /* box-shadow: 0 0 3px #000; */
+  text-align: center;
+  margin: auto;
+}
+
+.navbar ul li {
+  display: inline;
+  padding-left: 40px;
+  font-weight: 900;
+  font-size: 25px;
+  
+}
+
+.navbar ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+
+#search_bar {
+  float: right;
+  position: relative;
+
+  top: -10px;
+}
+
+#search_bar input[type=text] {
+  padding: 10px;
+  font-size: 20px;
+  float: left;
+  width: 80%;
+  background: #fbc413;
+  border: none;
+  box-shadow: 0 0 3px #efcf66;
+}
+
+#search_bar input::placeholder {
+  color: white;
+}
+
+
+
+#search_bar button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #1accd9;
+  color: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  border: none;
+}
+
+
+#search_bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#company-logo {
+  float: left;
+  margin-top: -20px;
+  display: flex;
+  align-items: center;
+  color: white;
+
+}
+
+#company-logo img {
+  width: 80px;
+}
+
+#company-logo-text {
+  margin-left: 6px;
+  width: 80%;
+}
+
+/*<-------FOOTER START------->*/
+
+footer{
+  height: 657px;
+  font-size: 16px;
+  width: auto;
+  justify-content: space-evenly;
+  padding: 50px 10px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-section{
+padding: 5px 30px;
+}
+
+footer h3 {
+  margin-bottom: 10px;
+}
+
+.linklist li{
+  list-style-type: none;
+  padding: 2px 0;
+}
+
+#footer-right{
+  justify-content: flex-end;
+}
+
+#send-field{
+  margin: 20px 0px;
+}
+
+#social-media img{
+  height: 25px;
+  width: auto;
+}
+
+/*<-------FOOTER END------->*/
