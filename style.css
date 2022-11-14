@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+
 }
 
 .BodyP {
@@ -70,7 +72,11 @@ height:300px;
 }
 
 .card p {
-margin: 20px 0 20px 0 ;
+margin: 20px 0 ;
+}
+
+.card h4 {
+
 
 
 }
