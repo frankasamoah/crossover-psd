@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.title-here {
+  display: block;
+  text-align: center;
+  font-family:'Noto Serif Georgian', serif;
+  background-color: #ffc400;
+  height: 400px;
+}
+.description{
+   display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.doggy {
+  display: flex;
+  flex-direction: column;
+  background: no-repeat;
+  justify-content: space-between;
+  width: 25%;
+  height: 400px
+}
+
+.pic-description {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: column;
+}
