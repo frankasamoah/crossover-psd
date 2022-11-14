@@ -127,6 +127,7 @@ align-self: center;
 margin: 0 0 5% 0 ;
 font-size: 4rem;
 
+
 }
 
 .cardposts {
@@ -143,7 +144,7 @@ align-items: flex-start;
   transition: 0.3s;
   margin: 3%;
   width:500px;
-  height:700px;
+  height:600px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -168,9 +169,15 @@ height:300px;
 margin: 20px 0 ;
 }
 
+.card h3 {
+font-size: 2rem;
+
+
+}
+
 .card h4 {
 color: #2BC9EC;
-margin: 30px 0 ;
+margin: 20px 0 ;
 font-size: 2rem;
 
 }
